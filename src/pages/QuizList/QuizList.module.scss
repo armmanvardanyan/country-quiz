@@ -1,0 +1,22 @@
+.QuizList {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #bdc3c7, #2c3e50); 
+    color: snow;
+    font-weight: bold;
+    flex-grow: 1;
+    div{
+        margin-top: 20px;
+        a{
+            text-decoration: none;
+            font-size: 1.2em;
+            color: whitesmoke;
+        }
+        a:hover{
+            color:rgba(255, 255, 255, 0.788)
+        }
+    }
+}

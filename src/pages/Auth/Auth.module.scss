@@ -1,0 +1,21 @@
+.Auth {
+    width: 100%;
+    margin-top: 100px;
+    >div {
+        display: flex;
+        justify-content: center;
+        >form {
+            width: 50%;
+            background: linear-gradient(to right, #2b5876, #4e4376);
+            color: white;
+            border-radius: 10px;
+            padding: 50px 25px;
+            @media (max-width:600px){
+                width: 100%;
+            }
+        }
+       
+
+    }
+}
+

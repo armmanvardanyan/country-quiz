@@ -1,0 +1,31 @@
+.ImgContainer{
+    >section{
+     img{
+         margin-top: 20px;
+         margin-right: 8px;
+         border-radius: 8px;
+         padding: 0;
+         box-sizing: border-box;
+         cursor: pointer;
+     } 
+     img:hover{
+        opacity: .5;
+     }  
+    }  
+ }
+ .Danger{
+    border:2px solid red;
+}
+.Success{
+    border:2px solid green;
+}
+.QuizItems{
+    position: relative;
+}
+
+
+.Left{
+    position:  absolute;
+    bottom: 10px;
+    right: 10px;
+}

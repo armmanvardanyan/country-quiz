@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.Quiz{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 100px;
+    color: white;
+    background: linear-gradient(to right, #243B55, #141E30); 
+    >div{
+        width: 60%;
+        height: 450px;
+        border: 2px solid snow;
+        border-radius: 8px;
+        padding: 10px;
+    }
+}
+
+.Success{
+    border: 4px solid green;
+}
+
+.Danger{
+    border: 2px solid red;
+}
+
+
+@media (max-width:800px){
+    .Quiz{
+        >div{
+            width: 95%;
+            height: 450px;
+            border: 2px solid snow;
+            border-radius: 8px;
+        }
+    }
+}
