@@ -14,11 +14,15 @@ import { AuthContext } from "./context/auth/AuthContext";
 
 function App() {
   const {setLogged} = useContext(AuthContext)
+  const logged = localStorage.getItem("token") 
+
   useEffect(()=> {
-    setLogged()
+    if(logged){
+      setLogged()
+    }
   },[])
 
-  const logged = localStorage.getItem("token") 
+
   if(logged){
     return (
       <Layout>
